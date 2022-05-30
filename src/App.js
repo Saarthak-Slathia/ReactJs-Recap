@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Included Bootstrap 5</h1>
+      <Header />
     </>
   );
 }
